@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/dscvr-clfrnia/public/images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  height: 92.5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  color: #fff;
+  font-size: 100px;
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #55ffe5;
+    font-size: 14;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.aurora{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/aurora.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #08db67;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: rgb(3, 111, 179)
+}
+
+.aurora p{
+    margin-bottom: 40px;
+    color: rgb(121, 189, 231)
+}
+
+.input-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 60%;
+}
+
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 96%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #11a554;
+}
+
+button{
+    background: #11a554;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(28, 0, 181, 0.3);
+
+}
+
+.contact-left h3{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 40px;
+}
