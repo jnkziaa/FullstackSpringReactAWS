@@ -1,4 +1,4 @@
-package com.example.fullstackspringreactaws.profile.dataStore;
+package com.example.fullstackspringreactaws.dataStore;
 
 import com.example.fullstackspringreactaws.profile.UserProfile;
 import org.springframework.stereotype.Repository;
@@ -12,8 +12,8 @@ public class UserProfileDataStore {
 
     private static final List<UserProfile> USER_PROFILES = new ArrayList<>();
     static {
-        USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "jinkaza", null));
-        USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "antoniobanderas", null));
+        USER_PROFILES.add(new UserProfile(UUID.fromString("079a0979-8ea4-46ef-abda-31434f4dec44"), "jinkaza", null));
+        USER_PROFILES.add(new UserProfile(UUID.fromString("0d715417-7e25-4469-aa2f-e4ecb7a79efb"), "antoniobanderas", null));
     }
 
     public UserProfileDataStore() {

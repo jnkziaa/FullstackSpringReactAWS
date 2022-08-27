@@ -19,7 +19,7 @@
 .services {
   height: 92.5%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/dscvr-clfrnia/public/images/img-2.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/public/images/img-2.jpg");
   background-position: center;
   background-size: cover;
   position: absolute;
